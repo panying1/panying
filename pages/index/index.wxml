@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<scroll-view scroll-y="true" height="100%" class="body">
+    <swiper style="height:410rpx;" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{lunbo[0]}}" wx:for-item="slide" wx:key="id">
+        <swiper-item>
+          <navigator url="{{slide.j_url}}">
+            <image class="slide-img" src="{{slide.s_url}}" mode="aspectFit"/>
+          </navigator>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="navs">
+      <block wx:for-items="{{navs}}" wx:for="{{first[0]}}" wx:key="name">
+        <view class="nav-item" catchtap="catchTapCategory2" data-type="{{item.name}}">
+          <image src="{{item.icon}}" class="nav-image"/>
+          <text>{{item.name}}</text>
+        </view>
+      </block>
+    </view>
+    <view class="navs1">
+      <block wx:for-items="{{navs1}}" wx:key="name">
+        <view class="nav1-item" catchtap="catchTapCategory2" data-type="{{item.name}}">
+          <image src="{{item.icon}}" class="nav1-image"/>
+          <text>{{item.name}}</text>
+        </view>
+      </block>
+    </view>
+    <swiper style="height:210rpx;" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{reg}}" wx:for-item="reg" wx:key="id">
+          <navigator url="{{reg.url}}">
+            <image class="reg-img" src="{{reg.reg}}" mode="aspectFit"/>
+          </navigator>
+      </block>
+    </swiper>
+    <view class="brand">  
+         <block wx:for-items="{{jia}}" wx:key="name">
+               	  	<view class="brand-left" catchtap="catchTapCategory" data-type="{{item.name}}">
+               	  		<view class="am-icon-user-plus"></view>
+               	  		<view class="text">
+               	  			<view class="a">{{item.name}}</view>
+               	  			<view class="b">{{item.name2}}</view>
+               	  		</view>
+               	  	</view>
+               	  	<view class="brand-right" catchtap="catchTapCategory1" data-type="{{item.name}}">
+               	  		<view class="am-icon-edit"></view>
+               	  		<view class="text">
+               	  			<view class="c">{{item.name1}}</view>
+               	  			<view class="d">{{item.name3}}</view>
+               	  		</view>
+               	  	</view>
+        </block>
+    </view>
+</scroll-view>

@@ -1,0 +1,10 @@
+<!--fan.wxml-->
+<view class="section">
+<view class="text">
+  <textarea placeholder="请输入反馈内容"/>
+</view>
+  <view class="btn-area">
+    <button type="warn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="warn"> 提交 </button>
+  </view>
+</view>

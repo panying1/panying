@@ -1,0 +1,156 @@
+.slide-img {
+  width: 100%;
+  height: 400rpx;
+}
+
+.navs {
+  display: flex;
+}
+
+.nav-item {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20rpx;
+  margin-left: auto;
+  background-color: white;
+}
+
+.nav-item .nav-image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.nav-item text {
+  padding-top: 20rpx;
+  font-size: 25rpx;
+  margin-left: auto;
+  display: flex;
+}
+
+.navs1 {
+  display: flex;
+}
+
+.nav1-item {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20rpx;
+  border: 1px solid #fff;
+  background-color: white;
+}
+
+.nav1-item .nav1-image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.nav1-item text {
+  padding-top: 20rpx;
+  font-size: 25rpx;
+}
+
+.reg-img {
+  width: 100%;
+  height: 200rpx;
+  background-color: #f2f2f2;
+}
+
+.body{
+   background-color:#ddd;
+}
+
+.category-title {
+  display: flex;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  margin-left: 20rpx;
+}
+
+.category-title .name {
+  font-size: 30rpx;
+  font-weight: 900;
+}
+
+.category-title .icon image {
+  width: 45rpx;
+  height: 45rpx;
+  margin-right: 15rpx;
+}
+
+.item {
+  background-color: #fff;
+  color: #787878;
+  display: flex;
+  align-items: center;
+}
+
+image.head-img {
+  width: 100%;
+}
+
+text {
+  color: #444;
+}
+
+.separate {
+  height: 10rpx;
+  background-color: #f2f2f2;
+}
+
+.brand{
+  width: 94%; 
+  margin: 10px 3%; 
+  overflow: hidden; 
+  border-radius: 5px; 
+  border:1px solid #ddd; 
+  background: #fff;
+  height: 50px;
+}
+.brand-left{ 
+  width: 46%; 
+  float: left; 
+  padding-left: 5px;
+}
+.brand-right{ 
+  width: 46%; 
+  float: left; 
+  border-left: 2px solid #ddd; 
+}
+.brand-left.am-icon-edit, .brand-right.am-icon-user-plus { 
+  font-size:25px; 
+  color: red; 
+  float: left; 
+  padding: 10px;
+  }
+.brand-left .text{ 
+  float: left; 
+  line-height: 25px;
+}
+.brand-right .text{ 
+  float: left;
+  line-height: 25px;
+}
+.brand-left .a{ 
+  font-weight: normal; 
+  font-size: 15px; 
+  color: #333;
+}
+.brand-left .b{ 
+  color: #666; 
+  font-size: 12px;
+}
+.brand-right .c{ 
+  font-weight: normal; 
+  font-size: 15px; 
+  color: #333;
+}
+.brand-right .d{ 
+  color: #666; 
+  font-size: 12px;
+}

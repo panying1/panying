@@ -1,0 +1,22 @@
+
+<view class="container">
+  <view class="info_list">
+      <block wx:for="{{reg}}" wx:for-item="reg" wx:key="id">
+          <navigator url="{{reg.url}}">
+            <image class="reg-img" src="{{reg.reg}}" mode="aspectFit"/>
+            <view class="center">啊玉家帮</view>
+            <view class="center">V1.2.0</view>
+          </navigator>
+      </block>
+  </view>
+  <view class="info_list1">
+    <block wx:for="{{userListInfo}}">
+        <view class="weui_cell">
+            <view class="weui_cell_bd">
+                <view class="weui_cell_bd_p1"> {{item.text}} </view>
+                <view class="weui_cell_bd_p"> {{item.text1}} </view>
+            </view>
+        </view>
+    </block>
+  </view>
+</view>

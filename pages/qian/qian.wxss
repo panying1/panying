@@ -1,0 +1,20 @@
+.container {
+  background-color: #F2f2f2;
+  padding: 0 0;
+}
+.member{
+  width: 100%; 
+  margin: 30px 3%; 
+  overflow: hidden; 
+  border-radius: 2px; 
+  margin-left: 70px;
+  }
+  .member .s{
+    float: left;
+    margin: 30px 3%;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+.a{
+  color:red;
+}

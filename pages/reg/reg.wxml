@@ -1,0 +1,28 @@
+<!--reg.wxml-->
+
+<view class="container">
+  <view class="info_list">
+      <block wx:for="{{reg}}" wx:for-item="reg" wx:key="id">
+          <navigator url="{{reg.url}}">
+            <image class="reg-img" src="{{reg.reg}}" mode="aspectFit"/>
+          </navigator>
+      </block>
+  </view>
+<view wx:if="{{needBindMobile}}">
+  <form bindsubmit="bindSubmitMobile">
+    <view class="check-code">
+      <input name="code" placeholder="请输入用户名"></input>
+    </view>
+    <view class="check-code">
+      <input name="code" placeholder="请输入手机号"></input>
+    </view>
+    <view class="check-code">
+      <input name="code" placeholder="请输入密码"></input>
+    </view>
+    <view class="check-code">
+      <input name="code" placeholder="再次输入密码"></input>
+    </view>
+    <view><button formType="submit" class="red">提交</button></view>
+  </form>
+</view>
+</view>

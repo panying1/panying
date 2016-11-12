@@ -1,0 +1,8 @@
+<view class="container">
+<view class="member">
+    <navigator href="money.html" class="s">
+        <view style="text-align:center" class="a">0.00</view>
+        <view>账号余额（元）</view>            
+    </navigator>
+</view>
+</view>

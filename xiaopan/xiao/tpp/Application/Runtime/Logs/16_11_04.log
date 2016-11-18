@@ -1,0 +1,37 @@
+[ 2016-11-04T09:20:59+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.007659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034921s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.100048s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.001573s ]
+
+[ 2016-11-04T09:21:00+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014892s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.074561s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.001074s ]
+
+[ 2016-11-04T09:21:02+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010620s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.170479s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.001132s ]
+
+[ 2016-11-04T09:21:03+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012026s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.061711s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.001294s ]
+
+[ 2016-11-04T09:21:06+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery21406985917714415081_1478222465218&_=1478222465219
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.010628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012546s ]
+

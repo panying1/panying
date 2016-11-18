@@ -1,0 +1,812 @@
+[ 2016-11-07T09:45:27+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023740s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.111033s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.007759s ]
+
+[ 2016-11-07T09:45:29+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008805s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.064912s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.001245s ]
+
+[ 2016-11-07T09:45:30+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005881s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.059462s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.000886s ]
+
+[ 2016-11-07T09:45:31+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.007836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010382s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.083382s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.001330s ]
+
+[ 2016-11-07T09:45:35+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery21406979961008228888_1478483133687&_=1478483133688
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016723s ]
+
+[ 2016-11-07T09:48:28+08:00 ] ::1 /xiao/tpp/index.php/Home/user/yuding1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007345s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.053876s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.001169s ]
+
+[ 2016-11-07T09:51:39+08:00 ] ::1 /xiao/tpp/index.php/Home/user/yuding1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003903s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.018426s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000825s ]
+
+[ 2016-11-07T09:52:23+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005436s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.016535s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.000839s ]
+
+[ 2016-11-07T09:52:24+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007272s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.055551s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.000854s ]
+
+[ 2016-11-07T09:52:25+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005728s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.014033s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.001068s ]
+
+[ 2016-11-07T09:52:26+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004530s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.018077s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.000824s ]
+
+[ 2016-11-07T09:52:29+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery214031168145569972694_1478483548857&_=1478483548858
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005310s ]
+
+[ 2016-11-07T09:59:06+08:00 ] ::1 /xiao/tpp/index.php/Home/green/green?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005289s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.016123s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000851s ]
+
+[ 2016-11-07T10:00:10+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011718s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.016600s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.000869s ]
+
+[ 2016-11-07T10:00:11+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.007542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014348s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.016567s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.000900s ]
+
+[ 2016-11-07T10:00:12+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008243s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.014663s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.001433s ]
+
+[ 2016-11-07T10:00:13+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012218s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.019356s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.000963s ]
+
+[ 2016-11-07T10:00:15+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery21407497047234792262_1478484014883&_=1478484014884
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009217s ]
+
+[ 2016-11-07T10:03:02+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery214032592943543568254_1478484181915&_=1478484181916
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011687s ]
+
+[ 2016-11-07T10:08:26+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005842s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.019892s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.000944s ]
+
+[ 2016-11-07T10:08:28+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004018s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.016815s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.000713s ]
+
+[ 2016-11-07T10:08:29+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003783s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.016683s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.000992s ]
+
+[ 2016-11-07T10:08:30+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003674s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.018423s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.001057s ]
+
+[ 2016-11-07T10:08:33+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery21409988416358828545_1478484511354&_=1478484511355
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.012330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023984s ]
+
+[ 2016-11-07T10:09:17+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.007003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012526s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.017892s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.000927s ]
+
+[ 2016-11-07T10:09:18+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013240s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.016731s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.002033s ]
+
+[ 2016-11-07T10:09:19+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007653s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.017125s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.000891s ]
+
+[ 2016-11-07T10:09:21+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011952s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.016293s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.000920s ]
+
+[ 2016-11-07T10:09:23+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery21405556289008818567_1478484562231&_=1478484562232
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009285s ]
+
+[ 2016-11-07T13:45:09+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007660s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.019293s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.001003s ]
+
+[ 2016-11-07T13:45:11+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010430s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.016314s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.000913s ]
+
+[ 2016-11-07T13:45:12+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006415s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.017978s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.000974s ]
+
+[ 2016-11-07T13:45:13+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005888s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.018401s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.002036s ]
+
+[ 2016-11-07T13:45:15+08:00 ] ::1 /xiao/tpp/index.php/Home/green/green?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004779s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.018191s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000691s ]
+
+[ 2016-11-07T14:06:10+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005960s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.019270s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.001202s ]
+
+[ 2016-11-07T14:06:11+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010522s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.023022s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.001063s ]
+
+[ 2016-11-07T14:06:12+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010305s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.015228s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.000765s ]
+
+[ 2016-11-07T14:06:13+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004334s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.018860s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.000833s ]
+
+[ 2016-11-07T14:06:15+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery21409024334289133549_1478498775149&_=1478498775150
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+
+[ 2016-11-07T14:07:20+08:00 ] ::1 /xiao/tpp/index.php/Home/user/arrive2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008095s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.017704s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.002158s ]
+
+[ 2016-11-07T14:08:50+08:00 ] ::1 /xiao/tpp/index.php/Home/user/yuding1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.007899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011560s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.016591s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000708s ]
+
+[ 2016-11-07T14:13:20+08:00 ] ::1 /xiao/tpp/index.php/Home/ask/tu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006615s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.043010s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.001860s ]
+
+[ 2016-11-07T14:13:46+08:00 ] ::1 /xiao/tpp/index.php/Home/ask/ask1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003511s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tiwen` [ RunTime:0.049871s ]
+SQL: SELECT * FROM `tiwen`  [ RunTime:0.001930s ]
+
+[ 2016-11-07T14:13:47+08:00 ] ::1 /xiao/tpp/index.php/Home/ask/tu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003615s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.019104s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.002045s ]
+
+[ 2016-11-07T14:14:49+08:00 ] ::1 /xiao/tpp/index.php/Home/ask/tu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.010703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023726s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.009174s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000449s ]
+
+[ 2016-11-07T14:15:40+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005992s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.017143s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.001090s ]
+
+[ 2016-11-07T14:15:41+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.009530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011567s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.016798s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.000971s ]
+
+[ 2016-11-07T14:15:43+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.012307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015212s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.017163s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.001615s ]
+
+[ 2016-11-07T14:15:44+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.020394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022874s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.015799s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.000963s ]
+
+[ 2016-11-07T14:15:46+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery214011395215685479343_1478499345572&_=1478499345573
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004533s ]
+
+[ 2016-11-07T14:15:51+08:00 ] ::1 /xiao/tpp/index.php/Home/green/green?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011294s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.014197s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000642s ]
+
+[ 2016-11-07T14:18:06+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010016s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.016981s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.000919s ]
+
+[ 2016-11-07T14:18:07+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012139s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.017512s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.000892s ]
+
+[ 2016-11-07T14:18:08+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007759s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.001008s ]
+
+[ 2016-11-07T14:18:09+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012895s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.016472s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.001066s ]
+
+[ 2016-11-07T14:18:12+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery21406017489968799055_1478499490765&_=1478499490766
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004535s ]
+
+[ 2016-11-07T14:21:44+08:00 ] ::1 /xiao/tpp/index.php/Home/green/green?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009683s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.017389s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000678s ]
+
+[ 2016-11-07T14:28:24+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.007520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010843s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.014745s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.000599s ]
+
+[ 2016-11-07T14:28:25+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004192s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.052382s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.000881s ]
+
+[ 2016-11-07T14:28:26+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007683s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.013747s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.000726s ]
+
+[ 2016-11-07T14:28:28+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002928s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.018394s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.001775s ]
+
+[ 2016-11-07T14:28:30+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery21405492357949260622_1478500109391&_=1478500109392
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011322s ]
+
+[ 2016-11-07T14:28:42+08:00 ] ::1 /xiao/tpp/index.php/Home/user/arrive2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007729s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.012428s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000952s ]
+
+[ 2016-11-07T14:29:01+08:00 ] ::1 /xiao/tpp/index.php/Home/user/yuding1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008661s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.016762s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000794s ]
+
+[ 2016-11-07T14:44:11+08:00 ] ::1 /xiao/tpp/index.php/Home/green/green?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004517s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.019487s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000916s ]
+
+[ 2016-11-07T14:44:33+08:00 ] ::1 /xiao/tpp/index.php/Home/user/arrive2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011152s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.028993s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.001300s ]
+
+[ 2016-11-07T14:44:39+08:00 ] ::1 /xiao/tpp/index.php/Home/user/yuding1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.012098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018584s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.018781s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000664s ]
+
+[ 2016-11-07T14:55:53+08:00 ] ::1 /xiao/tpp/index.php/Home/green/green?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.028241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031287s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.015874s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000727s ]
+
+[ 2016-11-07T15:01:57+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery21405737421151716262_1478502116058&_=1478502116059
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009472s ]
+
+[ 2016-11-07T15:02:01+08:00 ] ::1 /xiao/tpp/index.php/Home/ask/tu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.018038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029670s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.019928s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000869s ]
+
+[ 2016-11-07T15:02:08+08:00 ] ::1 /xiao/tpp/index.php/Home/ask/tu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.009137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013017s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.021906s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000820s ]
+
+[ 2016-11-07T15:06:46+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008347s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.013244s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.001032s ]
+
+[ 2016-11-07T15:06:47+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003619s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.044870s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.000901s ]
+
+[ 2016-11-07T15:06:49+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008272s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.017753s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.001150s ]
+
+[ 2016-11-07T15:06:50+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007051s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.015840s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.001203s ]
+
+[ 2016-11-07T15:06:52+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery21408228725933721192_1478502411430&_=1478502411431
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008594s ]
+
+[ 2016-11-07T15:06:56+08:00 ] ::1 /xiao/tpp/index.php/Home/ask/tu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003344s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.018260s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000946s ]
+
+[ 2016-11-07T15:07:01+08:00 ] ::1 /xiao/tpp/index.php/Home/ask/ask
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005235s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `commonquestion` [ RunTime:0.032418s ]
+SQL: SELECT * FROM `commonquestion`  [ RunTime:0.002802s ]
+
+[ 2016-11-07T15:07:03+08:00 ] ::1 /xiao/tpp/index.php/Home/ask/tu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004557s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000751s ]
+
+[ 2016-11-07T15:07:11+08:00 ] ::1 /xiao/tpp/index.php/Home/ask/ask1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003665s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tiwen` [ RunTime:0.013279s ]
+SQL: SELECT * FROM `tiwen`  [ RunTime:0.001094s ]
+
+[ 2016-11-07T15:07:12+08:00 ] ::1 /xiao/tpp/index.php/Home/ask/tu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004049s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.015329s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000675s ]
+
+[ 2016-11-07T16:36:40+08:00 ] ::1 /xiao/tpp/index.php/Home/ask/tu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011913s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.022839s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000726s ]
+
+[ 2016-11-07T16:36:47+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009904s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.018219s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.001413s ]
+
+[ 2016-11-07T16:36:48+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007976s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.020867s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.001711s ]
+
+[ 2016-11-07T16:36:50+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.007447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014195s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.023525s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.001046s ]
+
+[ 2016-11-07T16:36:51+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017777s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.018955s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.000953s ]
+
+[ 2016-11-07T16:36:53+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery214032394113461486995_1478507812685&_=1478507812686
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.014492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017306s ]
+
+[ 2016-11-07T16:37:51+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.016183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023097s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.016495s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.001495s ]
+
+[ 2016-11-07T16:37:53+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.012610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017459s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.020475s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.001255s ]
+
+[ 2016-11-07T16:37:54+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015614s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.016313s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.001061s ]
+
+[ 2016-11-07T16:37:55+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.007753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012775s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.018194s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.001504s ]
+
+[ 2016-11-07T16:37:58+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery21402017806558869779_1478507877069&_=1478507877070
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009435s ]
+
+[ 2016-11-07T19:11:18+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006343s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.018642s ]
+SQL: SELECT * FROM `file`  [ RunTime:0.001031s ]
+
+[ 2016-11-07T19:11:19+08:00 ] ::1 /xiao/tpp/index.php/Home/index/brief?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006593s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `brief` [ RunTime:0.016867s ]
+SQL: SELECT * FROM `brief`  [ RunTime:0.000912s ]
+
+[ 2016-11-07T19:11:20+08:00 ] ::1 /xiao/tpp/index.php/Home/index/news?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002687s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.021664s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.001014s ]
+
+[ 2016-11-07T19:11:21+08:00 ] ::1 /xiao/tpp/index.php/Home/index/center?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.019967s ]
+SQL: SELECT * FROM `center`  [ RunTime:0.001068s ]
+
+[ 2016-11-07T19:11:24+08:00 ] ::1 /xiao/tpp/index.php/Home/index/index?callback=jQuery21408339333565539666_1478517083382&_=1478517083383
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003327s ]
+
+[ 2016-11-07T19:11:29+08:00 ] ::1 /xiao/tpp/index.php/Home/green/green?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.009986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014093s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.025535s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000957s ]
+
+[ 2016-11-07T19:13:46+08:00 ] ::1 /xiao/tpp/index.php/Home/green/green?limit=4&sign=a87ff679a2f3e71d9181a67b7542122c
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004776s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `green` [ RunTime:0.017357s ]
+SQL: SELECT * FROM `green`  [ RunTime:0.000720s ]
+
+[ 2016-11-07T19:14:42+08:00 ] ::1 /xiao/tpp/index.php/Home/green/index?callback=jQuery1102016146539869073362_1478517227986&s_type=&name=%E7%AD%89%E7%AD%89&sex=%E5%A5%B3&nation=%E6%B1%89%E6%97%8F&phone=13456734568&card=123456785445634567&birthday=1996%2F09%2F07+21%3A31&mobile=13521948174&adress=%E5%8C%97%E4%BA%AC%E5%85%AB%E7%BB%B4&h_type=%E5%90%A6&u_type=%E5%9B%A2%E5%91%98&username=&relation=&work=&annual=&reason=&_=1478517227987
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004164s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.062245s ]
+SQL: INSERT INTO `user` (`s_type`,`name`,`sex`,`nation`,`phone`,`card`,`birthday`,`mobile`,`adress`,`h_type`,`u_type`) VALUES (0,'等等',0,'汉族','13456734568','123456785445634567','1996/09/07 21:31','13521948174','北京八维',0,0) [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `family` [ RunTime:0.016370s ]
+SQL: INSERT INTO `family` (`username`,`relation`,`work`,`annual`,`reason`) VALUES ('','','','','') [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.017314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017551s ]
+
+[ 2016-11-07T19:15:35+08:00 ] ::1 /xiao/tpp/index.php/Home/green/index?callback=jQuery1102016146539869073362_1478517227986&s_type=&name=%E7%AD%89%E7%AD%89&sex=%E5%A5%B3&nation=%E6%B1%89%E6%97%8F&phone=13456734568&card=123456785445634567&birthday=1996%2F09%2F07+21%3A31&mobile=13521948174&adress=%E5%8C%97%E4%BA%AC%E5%85%AB%E7%BB%B4&h_type=%E5%90%A6&u_type=%E5%9B%A2%E5%91%98&username=%E5%BC%A0%E4%B8%89&relation=%E6%88%90%E6%9C%AC&work=%E5%8F%91%E5%B8%83&annual=124&reason=&_=1478517227988
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006088s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016356s ]
+SQL: INSERT INTO `user` (`s_type`,`name`,`sex`,`nation`,`phone`,`card`,`birthday`,`mobile`,`adress`,`h_type`,`u_type`) VALUES (0,'等等',0,'汉族','13456734568','123456785445634567','1996/09/07 21:31','13521948174','北京八维',0,0) [ RunTime:0.001791s ]
+SQL: SHOW COLUMNS FROM `family` [ RunTime:0.024651s ]
+SQL: INSERT INTO `family` (`username`,`relation`,`work`,`annual`,`reason`) VALUES ('张三','成本','发布','124','') [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002720s ]
+
+[ 2016-11-07T19:15:53+08:00 ] ::1 /xiao/tpp/index.php/Home/green/index?callback=jQuery1102016146539869073362_1478517227986&s_type=&name=%E7%AD%89%E7%AD%89&sex=%E5%A5%B3&nation=%E6%B1%89%E6%97%8F&phone=13456734568&card=123456785445634567&birthday=1996%2F09%2F07+21%3A31&mobile=13521948174&adress=%E5%8C%97%E4%BA%AC%E5%85%AB%E7%BB%B4&h_type=%E5%90%A6&u_type=%E5%9B%A2%E5%91%98&username=%E5%BC%A0%E4%B8%89&relation=%E6%88%90%E6%9C%AC&work=%E5%8F%91%E5%B8%83&annual=124&reason=%E5%88%86%E6%81%A2%E5%A4%8D%E6%81%A2%E5%A4%8D%E6%81%A2%E5%A4%8D&_=1478517227989
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008635s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.019087s ]
+SQL: INSERT INTO `user` (`s_type`,`name`,`sex`,`nation`,`phone`,`card`,`birthday`,`mobile`,`adress`,`h_type`,`u_type`) VALUES (0,'等等',0,'汉族','13456734568','123456785445634567','1996/09/07 21:31','13521948174','北京八维',0,0) [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `family` [ RunTime:0.015420s ]
+SQL: INSERT INTO `family` (`username`,`relation`,`work`,`annual`,`reason`) VALUES ('张三','成本','发布','124','分恢复恢复恢�\�') [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003089s ]
+
+[ 2016-11-07T19:17:35+08:00 ] ::1 /xiao/tpp/index.php/Home/green/index?callback=jQuery1102016146539869073362_1478517227986&s_type=&name=%E7%AD%89%E7%AD%89&sex=%E5%A5%B3&nation=%E6%B1%89%E6%97%8F&phone=13456734568&card=123456785445634567&birthday=1996%2F09%2F07+21%3A31&mobile=13521948174&adress=%E5%8C%97%E4%BA%AC%E5%85%AB%E7%BB%B4&h_type=%E5%90%A6&u_type=%E5%9B%A2%E5%91%98&username=%E5%BC%A0%E4%B8%89&relation=%E6%88%90%E6%9C%AC&work=%E5%8F%91%E5%B8%83&annual=124&reason=%E5%88%86%E6%81%A2%E5%A4%8D%E6%81%A2%E5%A4%8D%E6%81%A2%E5%A4%8D&_=1478517227990
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004221s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.027988s ]
+SQL: INSERT INTO `user` (`s_type`,`name`,`sex`,`nation`,`phone`,`card`,`birthday`,`mobile`,`adress`,`h_type`,`u_type`) VALUES ('','等等','�\�','汉族','13456734568','123456785445634567','1996/09/07 21:31','13521948174','北京八维','�\�','团员') [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `family` [ RunTime:0.014778s ]
+SQL: INSERT INTO `family` (`username`,`relation`,`work`,`annual`,`reason`) VALUES ('张三','成本','发布','124','分恢复恢复恢�\�') [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001988s ]
+
+[ 2016-11-07T19:17:47+08:00 ] ::1 /xiao/tpp/index.php/Home/green/index?callback=jQuery1102016146539869073362_1478517227986&s_type=%E5%8A%A9%E5%AD%A6%E8%B4%B7%E6%AC%BE&name=%E7%AD%89%E7%AD%89&sex=%E5%A5%B3&nation=%E6%B1%89%E6%97%8F&phone=13456734568&card=123456785445634567&birthday=1996%2F09%2F07+21%3A31&mobile=13521948174&adress=%E5%8C%97%E4%BA%AC%E5%85%AB%E7%BB%B4&h_type=%E5%90%A6&u_type=%E5%9B%A2%E5%91%98&username=%E5%BC%A0%E4%B8%89&relation=%E6%88%90%E6%9C%AC&work=%E5%8F%91%E5%B8%83&annual=124&reason=%E5%88%86%E6%81%A2%E5%A4%8D%E6%81%A2%E5%A4%8D%E6%81%A2%E5%A4%8D&_=1478517227991
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003115s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\phpstudy\WWW\xiao\tpp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017604s ]
+SQL: INSERT INTO `user` (`s_type`,`name`,`sex`,`nation`,`phone`,`card`,`birthday`,`mobile`,`adress`,`h_type`,`u_type`) VALUES ('助学贷款','等等','�\�','汉族','13456734568','123456785445634567','1996/09/07 21:31','13521948174','北京八维','�\�','团员') [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `family` [ RunTime:0.017126s ]
+SQL: INSERT INTO `family` (`username`,`relation`,`work`,`annual`,`reason`) VALUES ('张三','成本','发布','124','分恢复恢复恢�\�') [ RunTime:0.002163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002323s ]
+

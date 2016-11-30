@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>一元购</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/main.css"/>
+    <script type="text/javascript" src="__PUBLIC__/js/libs/modernizr.min.js"></script>
+</head>
+<body>
+<?php include './public/index/index.html'; ?>
+    <!--/sidebar-->
+<div class="crumb-wrap">
+    <div class="crumb-list"><i class="icon-font"></i><a href="<?php echo U('index/index')?>">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">添加地址</span></div>
+</div>
+
+<form name="ModelForm" action="__URL__/adress_add" method="post">
+
+        <div class="content_box">
+            <div class="content form_content">
+                <table id="tab-1" class="form_table" name="table">
+                    <col width="150px" />
+                    <col />
+                    <tr>
+                        <th>发货点名称：</th>
+                        <td><input class="normal" name="ship_name" type="text"   alt="发货点名称"/><label>*发货地点名称</label></td>
+                    </tr>
+                    <tr>
+                        <th>发货人姓名：</th>
+                        <td><input class="normal" name="ship_user_name" type="text"   alt="发货人姓名"/><label>*发货人名称</label></td>
+                    </tr>
+                    <tr>
+                        <th>性别：</th>
+                        <td><label class='attr'><input type="radio" name="sex" value="1" checked/>先生</label><label class='attr'><input type="radio" name="sex" value="0" {if:$ship['sex']==0}checked='checked'{/if}/>女士</label><label>*</label></td>
+                    </tr>
+                    <tr>
+                        <th>*公司所在区域</th>
+                        <th>
+                            <select id="province" runat="server" name="province">
+                            </select>
+                            <select id="city" runat="server" name="city">
+                            </select>
+                            <select id="county" runat="server" name="county">
+                            </select>
+                        </th>
+
+                    </tr>
+                    <tr>
+                        <th>地址：</th>
+                        <td><input class="normal" name="address" type="text"  alt="具体地址错误"/><label>*具体地址</label></td>
+                    </tr>
+                    <tr>
+                        <th>邮编：</th>
+                        <td><input class="normal" name="postcode" type="text"   empty alt="邮编错误"/><label>邮政编码</label></td>
+                    </tr>
+                    <tr>
+                        <th>手机：</th>
+                        <td><input class="normal" name="mobile" type="text" /><label>*手机号码</label></td>
+                    </tr>
+                    <tr>
+                        <th>电话：</th>
+                        <td><input class="normal" name="telphone" type="text"  empty alt="电话号码错误"/></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td><input class="submit" type="submit" value="提交"></button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+    <!--/main-->
+
+</div>
+</body>
+</html>
+<script type="text/javascript" src="__PUBLIC__/js/area.js"></script>
+<script type="text/javascript">
+    setup()
+
+</script>

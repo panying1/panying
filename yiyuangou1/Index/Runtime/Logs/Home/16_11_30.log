@@ -1,0 +1,2115 @@
+[ 2016-11-30T08:38:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002262s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0438s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0778s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0160s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0482s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000919s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.179649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.179869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019569s ]
+
+[ 2016-11-30T09:07:50+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002521s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0383s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001622s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001880s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002796s ]
+
+[ 2016-11-30T09:07:51+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0048s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2016-11-30T09:07:52+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+
+[ 2016-11-30T09:07:52+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+
+[ 2016-11-30T09:07:52+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+
+[ 2016-11-30T09:07:52+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-11-30T09:07:54+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000452s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002583s ]
+
+[ 2016-11-30T09:07:55+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002288s ]
+
+[ 2016-11-30T09:07:56+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+
+[ 2016-11-30T09:07:56+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001833s ]
+
+[ 2016-11-30T09:07:56+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001800s ]
+
+[ 2016-11-30T09:07:56+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001950s ]
+
+[ 2016-11-30T09:07:56+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002976s ]
+
+[ 2016-11-30T09:07:57+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002485s ]
+
+[ 2016-11-30T09:07:57+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001489s ]
+
+[ 2016-11-30T09:07:57+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+
+[ 2016-11-30T09:07:57+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+
+[ 2016-11-30T09:07:57+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002234s ]
+
+[ 2016-11-30T09:07:57+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-11-30T09:07:57+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-11-30T09:10:41+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined variable: guide E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002431s ]
+
+[ 2016-11-30T09:10:48+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html?p=2&order=shop.hits%7Cdesc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000462s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] Undefined variable: guide E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003393s ]
+
+[ 2016-11-30T09:12:19+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0218s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2016-11-30T09:12:19+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001796s ]
+
+[ 2016-11-30T09:12:19+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002392s ]
+
+[ 2016-11-30T09:12:19+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001725s ]
+
+[ 2016-11-30T09:12:19+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001892s ]
+
+[ 2016-11-30T09:12:19+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001971s ]
+
+[ 2016-11-30T09:12:21+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002259s ]
+
+[ 2016-11-30T09:12:21+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001443s ]
+
+[ 2016-11-30T09:12:21+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+
+[ 2016-11-30T09:12:21+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+
+[ 2016-11-30T09:12:21+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003203s ]
+
+[ 2016-11-30T09:12:21+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-11-30T09:12:22+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001830s ]
+
+[ 2016-11-30T09:12:22+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+
+[ 2016-11-30T09:12:22+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+
+[ 2016-11-30T09:12:22+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+
+[ 2016-11-30T09:12:22+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001431s ]
+
+[ 2016-11-30T09:12:22+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+
+[ 2016-11-30T09:12:24+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001728s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002422s ]
+
+[ 2016-11-30T09:12:24+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+
+[ 2016-11-30T09:12:24+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001900s ]
+
+[ 2016-11-30T09:12:24+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008864s ]
+
+[ 2016-11-30T09:12:24+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001573s ]
+
+[ 2016-11-30T09:12:24+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001906s ]
+
+[ 2016-11-30T09:12:26+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002587s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001663s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001936s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002574s ]
+
+[ 2016-11-30T09:12:26+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001486s ]
+
+[ 2016-11-30T09:12:26+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001600s ]
+
+[ 2016-11-30T09:12:26+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002227s ]
+
+[ 2016-11-30T09:12:26+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001708s ]
+
+[ 2016-11-30T09:12:26+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+
+[ 2016-11-30T09:12:43+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002832s ]
+
+[ 2016-11-30T09:12:43+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+
+[ 2016-11-30T09:12:43+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+
+[ 2016-11-30T09:12:43+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001895s ]
+
+[ 2016-11-30T09:12:43+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+
+[ 2016-11-30T09:12:43+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001690s ]
+
+[ 2016-11-30T09:12:45+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001770s ]
+
+[ 2016-11-30T09:12:45+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+
+[ 2016-11-30T09:12:45+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+
+[ 2016-11-30T09:12:45+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+
+[ 2016-11-30T09:12:45+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002519s ]
+
+[ 2016-11-30T09:12:45+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+
+[ 2016-11-30T09:12:47+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002277s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002353s ]
+
+[ 2016-11-30T09:12:47+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001706s ]
+
+[ 2016-11-30T09:12:47+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+
+[ 2016-11-30T09:12:47+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001635s ]
+
+[ 2016-11-30T09:12:47+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004629s ]
+
+[ 2016-11-30T09:12:47+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+
+[ 2016-11-30T09:12:49+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003180s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001545s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002477s ]
+
+[ 2016-11-30T09:12:49+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001827s ]
+
+[ 2016-11-30T09:12:49+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001693s ]
+
+[ 2016-11-30T09:12:49+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001472s ]
+
+[ 2016-11-30T09:12:49+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001860s ]
+
+[ 2016-11-30T09:12:49+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001831s ]
+
+[ 2016-11-30T09:13:12+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001696s ]
+
+[ 2016-11-30T09:13:12+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+
+[ 2016-11-30T09:13:12+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001525s ]
+
+[ 2016-11-30T09:13:12+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+
+[ 2016-11-30T09:13:12+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001537s ]
+
+[ 2016-11-30T09:13:12+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+
+[ 2016-11-30T09:13:14+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002602s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002601s ]
+
+[ 2016-11-30T09:13:14+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+
+[ 2016-11-30T09:13:14+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+
+[ 2016-11-30T09:13:14+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001565s ]
+
+[ 2016-11-30T09:13:14+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001659s ]
+
+[ 2016-11-30T09:13:15+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001418s ]
+
+[ 2016-11-30T09:13:15+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003483s ]
+
+[ 2016-11-30T09:13:15+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004076s ]
+
+[ 2016-11-30T09:13:15+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002288s ]
+
+[ 2016-11-30T09:13:15+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+
+[ 2016-11-30T09:13:33+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0021s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= ) LIMIT 1  
+
+[ 2016-11-30T09:14:06+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002597s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0016s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= ) LIMIT 1  
+
+[ 2016-11-30T09:14:09+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0022s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= ) LIMIT 1  
+
+[ 2016-11-30T09:16:39+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002279s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0007s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= ) LIMIT 1  
+
+[ 2016-11-30T09:19:40+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: id E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\IndexController.class.php 第 54 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_status=1 ) ORDER BY hits desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= and goods_status=1 ) ORDER BY hits desc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_status=1 ) ORDER BY hits desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= and goods_status=1 ) ORDER BY hits desc 
+
+[ 2016-11-30T09:19:50+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: id E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\IndexController.class.php 第 54 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_status=1 ) ORDER BY hits desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= and goods_status=1 ) ORDER BY hits desc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_status=1 ) ORDER BY hits desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= and goods_status=1 ) ORDER BY hits desc 
+
+[ 2016-11-30T09:19:53+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: id E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\IndexController.class.php 第 54 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_status=1 ) ORDER BY hits desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= and goods_status=1 ) ORDER BY hits desc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_status=1 ) ORDER BY hits desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= and goods_status=1 ) ORDER BY hits desc 
+
+[ 2016-11-30T09:20:11+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002218s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+NOTIC: [8] Undefined variable: guide E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003604s ]
+
+[ 2016-11-30T09:20:54+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002004s ]
+
+[ 2016-11-30T09:20:54+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161108092017740.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+
+[ 2016-11-30T09:20:55+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20160926172337982.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001660s ]
+
+[ 2016-11-30T09:20:55+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161124174841783.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001455s ]
+
+[ 2016-11-30T09:20:55+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20161118110440733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001974s ]
+
+[ 2016-11-30T09:20:55+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/index/1%E5%85%83%E4%BA%91%E8%B4%AD%20-%20%E6%83%8A%E5%96%9C%E6%97%A0%E9%99%90%21_files/20151026181548493.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+
+[ 2016-11-30T09:21:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002912s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000894s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002730s ]
+
+[ 2016-11-30T09:24:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.063617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043170s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006591s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.356771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.356990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004276s ]
+
+[ 2016-11-30T09:24:13+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+NOTIC: [8] Undefined variable: guide E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 54 行.
+NOTIC: [8] Undefined variable: re E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002884s ]
+
+[ 2016-11-30T09:24:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000912s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002221s ]
+
+[ 2016-11-30T09:28:48+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/reg/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001849s ]
+
+[ 2016-11-30T09:28:48+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/Reg/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002240s ]
+
+[ 2016-11-30T09:28:53+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\LoginController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2016-11-30T09:28:58+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/pwd/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\PwdController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2016-11-30T09:28:58+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/pwd/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\PwdController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001969s ]
+
+[ 2016-11-30T09:29:05+08:00 ] 127.0.0.1 /index.php/home/cart/cart?id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( g_id=22 ) LIMIT 1   [ RunTime:0.0152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000715s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] Undefined index: goods_title E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\25900a5f4028332f18ce2a6132c5c383.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003316s ]
+
+[ 2016-11-30T09:29:06+08:00 ] 127.0.0.1 /index.php/home/cart/Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA%20-%20Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA_files/56f1ea1ca2468.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+ERR: 非法操作:Apple iPhone SE 64G 移动联通电信4G手机 - Apple iPhone SE 64G 移动联通电信4G手机_files
+
+[ 2016-11-30T09:29:06+08:00 ] 127.0.0.1 /index.php/home/cart/Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA%20-%20Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA_files/56f1ea1ca2468.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003377s ]
+ERR: 非法操作:Apple iPhone SE 64G 移动联通电信4G手机 - Apple iPhone SE 64G 移动联通电信4G手机_files
+
+[ 2016-11-30T09:29:07+08:00 ] 127.0.0.1 /index.php/home/cart/Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA%20-%20Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA_files/56f1ea1cd9a5f.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+ERR: 非法操作:Apple iPhone SE 64G 移动联通电信4G手机 - Apple iPhone SE 64G 移动联通电信4G手机_files
+
+[ 2016-11-30T09:29:07+08:00 ] 127.0.0.1 /index.php/home/cart/Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA%20-%20Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA_files/56f1ea1d04fbc.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005500s ]
+ERR: 非法操作:Apple iPhone SE 64G 移动联通电信4G手机 - Apple iPhone SE 64G 移动联通电信4G手机_files
+
+[ 2016-11-30T09:29:07+08:00 ] 127.0.0.1 /index.php/home/cart/Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA%20-%20Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA_files/56f1ea1ce3229.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002213s ]
+ERR: 非法操作:Apple iPhone SE 64G 移动联通电信4G手机 - Apple iPhone SE 64G 移动联通电信4G手机_files
+
+[ 2016-11-30T09:29:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000926s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002793s ]
+
+[ 2016-11-30T09:29:17+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/pwd/indexok.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\PwdController.class.php 第 5 行.
+SQL: SELECT * FROM `index_user` WHERE `username` = '11111@qq.com' LIMIT 1   [ RunTime:0.0315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2016-11-30T09:29:18+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/pwd/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002202s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\PwdController.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2016-11-30T09:29:18+08:00 ] 192.168.1.20 /yiyuangou/index.php/Home/pwd/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\PwdController.class.php 第 5 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002317s ]
+
+[ 2016-11-30T09:29:44+08:00 ] 127.0.0.1 /index.php/home/cart/cart?id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002434s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( g_id=22 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000693s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8] Undefined index: goods_title E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\25900a5f4028332f18ce2a6132c5c383.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002260s ]
+
+[ 2016-11-30T09:29:44+08:00 ] 127.0.0.1 /index.php/home/cart/Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA%20-%20Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA_files/56f1ea1ca2468.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+ERR: 非法操作:Apple iPhone SE 64G 移动联通电信4G手机 - Apple iPhone SE 64G 移动联通电信4G手机_files
+
+[ 2016-11-30T09:29:44+08:00 ] 127.0.0.1 /index.php/home/cart/Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA%20-%20Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA_files/56f1ea1cd9a5f.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003427s ]
+ERR: 非法操作:Apple iPhone SE 64G 移动联通电信4G手机 - Apple iPhone SE 64G 移动联通电信4G手机_files
+
+[ 2016-11-30T09:29:44+08:00 ] 127.0.0.1 /index.php/home/cart/Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA%20-%20Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA_files/56f1ea1ce3229.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002282s ]
+ERR: 非法操作:Apple iPhone SE 64G 移动联通电信4G手机 - Apple iPhone SE 64G 移动联通电信4G手机_files
+
+[ 2016-11-30T09:29:45+08:00 ] 127.0.0.1 /index.php/home/cart/Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA%20-%20Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA_files/56f1ea1ca2468.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+ERR: 非法操作:Apple iPhone SE 64G 移动联通电信4G手机 - Apple iPhone SE 64G 移动联通电信4G手机_files
+
+[ 2016-11-30T09:29:45+08:00 ] 127.0.0.1 /index.php/home/cart/Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA%20-%20Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA_files/56f1ea1cd9a5f.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+ERR: 非法操作:Apple iPhone SE 64G 移动联通电信4G手机 - Apple iPhone SE 64G 移动联通电信4G手机_files
+
+[ 2016-11-30T09:29:45+08:00 ] 127.0.0.1 /index.php/home/cart/Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA%20-%20Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA_files/56f1ea1ce3229.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002075s ]
+ERR: 非法操作:Apple iPhone SE 64G 移动联通电信4G手机 - Apple iPhone SE 64G 移动联通电信4G手机_files
+
+[ 2016-11-30T09:29:45+08:00 ] 127.0.0.1 /index.php/home/cart/Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA%20-%20Apple%20iPhone%20SE%2064G%20%E7%A7%BB%E5%8A%A8%E8%81%94%E9%80%9A%E7%94%B5%E4%BF%A14G%E6%89%8B%E6%9C%BA_files/56f1ea1d04fbc.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002528s ]
+ERR: 非法操作:Apple iPhone SE 64G 移动联通电信4G手机 - Apple iPhone SE 64G 移动联通电信4G手机_files
+
+[ 2016-11-30T09:34:30+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+NOTIC: [8] Undefined variable: re E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002373s ]
+
+[ 2016-11-30T09:38:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002364s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000950s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006133s ]
+
+[ 2016-11-30T09:38:13+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods_cate`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: cate_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: cate_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: cate_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: cate_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: cate_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: cate_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: cate_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002653s ]
+
+[ 2016-11-30T09:39:53+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0019s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\IndexController.class.php on line 56 and defined E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+ERR: 1054:Unknown column 'goods_cate.cate_id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `goods_cate` INNER JOIN gou_goods on goods_cate.cate_id=gou_goods.goods_id  
+ERR: 1054:Unknown column 'goods_cate.cate_id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `goods_cate` INNER JOIN gou_goods on goods_cate.cate_id=gou_goods.goods_id  
+
+[ 2016-11-30T09:40:21+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0024s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\IndexController.class.php on line 56 and defined E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `goods_cate` INNER JOIN gou_goods on goods_cate.goods_id=gou_goods.cate_id   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000693s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003524s ]
+
+[ 2016-11-30T09:40:38+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0018s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\IndexController.class.php on line 56 and defined E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `goods_cate` INNER JOIN gou_goods on goods_cate.goods_id=gou_goods.cate_id  LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001906s ]
+
+[ 2016-11-30T09:42:05+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0018s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\IndexController.class.php on line 56 and defined E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `gou_goods` INNER JOIN goods_cate on gou_goods.cate_id=goods_cate.goods_id   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002508s ]
+
+[ 2016-11-30T09:42:38+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0018s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\IndexController.class.php on line 56 and defined E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `gou_goods` INNER JOIN goods_cate on gou_goods.cate_id=goods_cate.goods_id  LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+NOTIC: [2] Illegal string offset 'g_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [2] Illegal string offset 'cate_id' E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002637s ]
+
+[ 2016-11-30T09:43:18+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\IndexController.class.php on line 56 and defined E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `gou_goods` INNER JOIN goods_cate on gou_goods.cate_id=goods_cate.goods_id   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000578s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002265s ]
+
+[ 2016-11-30T09:43:45+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0017s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\phpstudy\WWW\yiyuangou\Index\Home\Controller\IndexController.class.php on line 56 and defined E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\phpstudy\WWW\yiyuangou\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `goods_cate` INNER JOIN gou_goods on goods_cate.goods_id=gou_goods.cate_id   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002135s ]
+
+[ 2016-11-30T09:44:10+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods_cate` INNER JOIN gou_goods on goods_cate.goods_id=gou_goods.cate_id   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002095s ]
+
+[ 2016-11-30T09:46:10+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+
+[ 2016-11-30T09:46:18+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004212s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `goods_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+NOTIC: [8] Undefined index: g_id E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003208s ]
+
+[ 2016-11-30T09:49:04+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002736s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods_cate`  [ RunTime:0.0007s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( g_id= ) LIMIT 1  
+
+[ 2016-11-30T09:49:22+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods_cate`  [ RunTime:0.0008s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( cate_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( cate_id= ) LIMIT 1  
+
+[ 2016-11-30T09:49:24+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods_cate`  [ RunTime:0.0009s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( cate_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gou_goods` WHERE ( cate_id= ) LIMIT 1  
+
+[ 2016-11-30T09:50:17+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `goods_cate`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+NOTIC: [8] Undefined variable: re E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002982s ]
+
+[ 2016-11-30T09:50:59+08:00 ] 127.0.0.1 /index.php/Home/index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 ) ORDER BY hits desc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods_cate`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined variable: vo E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 52 行.
+NOTIC: [8] Undefined variable: re E:\phpstudy\WWW\yiyuangou\Index\Runtime\Cache\Home\c2e43f6e44fcac79e963bb3c1727d63f.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2016-11-30T09:51:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+SQL: SELECT * FROM `gou_ad_data` WHERE ( ad_status=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `gou_cat` INNER JOIN gou_news on gou_cat.id=gou_news.cat_id  WHERE gou_news.status = 1  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `gou_guide`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( hot=1 AND goods_status=1 ) ORDER BY hits desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=1 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=2 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=3 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=4 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=5 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=6 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and cate_id=7 ) ORDER BY hits desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gou_goods` WHERE ( goods_status=1 and sele=1 ) ORDER BY goods_end_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001566s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002415s ]
+

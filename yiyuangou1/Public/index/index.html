@@ -1,0 +1,85 @@
+<div class="topbar-wrap white">
+    <div class="topbar-inner clearfix">
+        <div class="topbar-logo-wrap clearfix">
+            <h1 class="topbar-logo none"><a href="index.html" class="navbar-brand">后台管理</a></h1>
+            <ul class="navbar-list clearfix">
+
+                <li><a href="">一元购</a></li>
+            </ul>
+        </div>
+        <div class="top-info-wrap">
+            <ul class="top-info-list clearfix">
+                <li><a href=""><?php if(session("?admin_user")){?>
+                    <h5>欢迎<font color='red'><?php echo $_SESSION['admin_user'];  ?></font>登陆</h5>
+                    <?php }else{?>
+                    <h5>欢迎***登陆></h5>
+                    <?php }?></a></li>
+                <li><a href="<?php echo U('login/loginout')?>">退出</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container clearfix">
+    <div class="sidebar-wrap">
+        <div class="sidebar-content">
+            <ul class="sidebar-list">
+                <li>
+                    <a href="#"><i class="icon-font">&#xe003;</i>管理员</a>
+                    <ul class="sub-menu">
+                        <li><a href="<?php echo U('admin/index')?>"><i class="icon-font">&#xe012;</i>管理员添加</a></li>
+                        <li><a href="<?php echo U('admin/lists')?>"><i class="icon-font">&#xe012;</i>管理员展示</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="icon-font">&#xe003;</i>用户</a>
+                    <ul class="sub-menu">
+                        <li><a href="<?php echo U('user/index')?>"><i class="icon-font">&#xe012;</i>个人资料添加</a></li>
+                        <li><a href="<?php echo U('user/lists')?>"><i class="icon-font">&#xe012;</i>个人资料展示</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="icon-font">&#xe018;</i>商品列表</a>
+                    <ul class="sub-menu">
+                        <li><a href="<?php echo U('goods/show')?>"><i class="icon-font">&#xe017;</i>添加商品</a></li>
+                        <li><a href="<?php echo U('goods/select')?>"><i class="icon-font">&#xe017;</i>商品列表</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="icon-font">&#xe003;</i>地址管理</a>
+                    <ul class="sub-menu">
+                        <li><a href="<?php echo U('goods/adress')?>"><i class="icon-font">&#xe012;</i>添加地址</a></li>
+                        <li><a href="<?php echo U('goods/adress_list')?>"><i class="icon-font">&#xe012;</i>地址展示</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href=""><i class="icon-font">&#xe018;</i>品牌</a>
+                    <ul class="sub-menu">
+                        <li><a href="<?php echo U('brand/index')?>"><i class="icon-font">&#xe017;</i>品牌添加</a></li>
+                        <li><a href="<?php echo U('brand/lists')?>"><i class="icon-font">&#xe017;</i>品牌列表</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href=""><i class="icon-font">&#xe018;</i>广告</a>
+                    <ul class="sub-menu">
+                        <li><a href="<?php echo U('address/index')?>"><i class="icon-font">&#xe017;</i>广告添加</a></li>
+                        <li><a href="<?php echo U('address/lists')?>"><i class="icon-font">&#xe017;</i>广告列表</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="icon-font">&#xe018;</i>商品分类</a>
+                    <ul class="sub-menu">
+                        <li><a href="<?php echo U('Cate/add')?>"><i class="icon-font">&#xe017;</i>添加分类</a></li>
+                        <li><a href="<?php echo U('Cate/show')?>"><i class="icon-font">&#xe017;</i>分类列表</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="icon-font">&#xe018;</i>商品订单</a>
+                    <ul class="sub-menu">
+                        <li><a href="<?php echo U('Order/show')?>"><i class="icon-font">&#xe017;</i>订单管理</a></li>
+                        <li><a href="<?php echo U('Order/lianjie')?>"><i class="icon-font">&#xe017;</i>友情链接</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>

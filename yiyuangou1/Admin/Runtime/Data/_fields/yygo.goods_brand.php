@@ -1,0 +1,1 @@
+a:6:{i:0;s:8:"brand_id";i:1;s:11:"brand_title";i:2;s:7:"cate_id";i:3;s:5:"order";s:3:"_pk";s:8:"brand_id";s:5:"_type";a:4:{s:8:"brand_id";s:7:"int(10)";s:11:"brand_title";s:11:"varchar(35)";s:7:"cate_id";s:7:"int(10)";s:5:"order";s:7:"int(10)";}}
